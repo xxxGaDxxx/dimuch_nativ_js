@@ -56,7 +56,7 @@ export function toHireStaff(building: GovernmentBuildingsType, staffCountToHire:
 
 
 export function createMessage(props: CityType) {
-   // return 'Hello ' + props.title + ' citizens.I want yo be happy. All ' + props.citizensNumber + ' men'
+    // return 'Hello ' + props.title + ' citizens.I want yo be happy. All ' + props.citizensNumber + ' men'
     return `Hello ${props.title} citizens.I want yo be happy. All ${props.citizensNumber} men`
 }
 

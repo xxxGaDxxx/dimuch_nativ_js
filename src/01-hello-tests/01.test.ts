@@ -15,7 +15,7 @@ test('sum should be correct', () => {
 
     //action
     const result1 = sum(a, b);
-    a= 100;
+    a = 100;
     const result2 = sum(a, c);
 
     //expect result

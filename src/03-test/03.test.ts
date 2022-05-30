@@ -51,8 +51,8 @@ test('student should be made active', () => {
 
 test('student lives in city', () => {
 
-    let result1=doesStudentLiveIN(student, 'Moscov')
-    let result2=doesStudentLiveIN(student, 'Grodno')
+    let result1 = doesStudentLiveIN(student, 'Moscov')
+    let result2 = doesStudentLiveIN(student, 'Grodno')
 
     expect(result1).toBe(false)
     expect(result2).toBe(true)
