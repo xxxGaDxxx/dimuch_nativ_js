@@ -10,14 +10,14 @@ export const User = () => {
         alert('user have benn saved')
     }
 
-    const onNameChanged=()=>{
+    const onNameChanged = () => {
         console.log('name changed')
     }
-    const focusLostHandler=()=>{
+    const focusLostHandler = () => {
         console.log('focus lost')
     }
-    const onAgeChanged=(event:ChangeEvent<HTMLInputElement>)=>{
-        console.log('age changed'+event.currentTarget.value)
+    const onAgeChanged = (event: ChangeEvent<HTMLInputElement>) => {
+        console.log('age changed' + event.currentTarget.value)
     }
     return (
         <div>
